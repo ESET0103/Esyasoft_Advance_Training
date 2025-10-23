@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\C#\Assessment1\bin\Debug\net8.0\Assessment1.exe
+C:\Users\HP\Desktop\C#\Assessment1\bin\Debug\net8.0\Assessment1.deps.json
+C:\Users\HP\Desktop\C#\Assessment1\bin\Debug\net8.0\Assessment1.runtimeconfig.json
+C:\Users\HP\Desktop\C#\Assessment1\bin\Debug\net8.0\Assessment1.dll
+C:\Users\HP\Desktop\C#\Assessment1\bin\Debug\net8.0\Assessment1.pdb
+C:\Users\HP\Desktop\C#\Assessment1\obj\Debug\net8.0\Assessment1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\C#\Assessment1\obj\Debug\net8.0\Assessment1.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\C#\Assessment1\obj\Debug\net8.0\Assessment1.AssemblyInfo.cs
+C:\Users\HP\Desktop\C#\Assessment1\obj\Debug\net8.0\Assessment1.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\C#\Assessment1\obj\Debug\net8.0\Assessment1.dll
+C:\Users\HP\Desktop\C#\Assessment1\obj\Debug\net8.0\refint\Assessment1.dll
+C:\Users\HP\Desktop\C#\Assessment1\obj\Debug\net8.0\Assessment1.pdb
+C:\Users\HP\Desktop\C#\Assessment1\obj\Debug\net8.0\Assessment1.genruntimeconfig.cache
+C:\Users\HP\Desktop\C#\Assessment1\obj\Debug\net8.0\ref\Assessment1.dll

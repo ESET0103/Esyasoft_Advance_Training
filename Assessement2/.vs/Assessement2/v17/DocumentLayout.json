@@ -1,0 +1,228 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|c:\\users\\hp\\desktop\\c#\\assessement2\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|solutionrelative:admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|c:\\users\\hp\\desktop\\c#\\assessement2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|c:\\users\\hp\\desktop\\c#\\assessement2\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|solutionrelative:logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|c:\\users\\hp\\desktop\\c#\\assessement2\\registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|solutionrelative:registrationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|c:\\users\\hp\\desktop\\c#\\assessement2\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|solutionrelative:studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|c:\\users\\hp\\desktop\\c#\\assessement2\\professors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|solutionrelative:professors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|c:\\users\\hp\\desktop\\c#\\assessement2\\professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|solutionrelative:professorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|c:\\users\\hp\\desktop\\c#\\assessement2\\departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|solutionrelative:departments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|c:\\users\\hp\\desktop\\c#\\assessement2\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|solutionrelative:departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|c:\\users\\hp\\desktop\\c#\\assessement2\\dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|solutionrelative:dbconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|c:\\users\\hp\\desktop\\c#\\assessement2\\courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|solutionrelative:courses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|c:\\users\\hp\\desktop\\c#\\assessement2\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|solutionrelative:coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|c:\\users\\hp\\desktop\\c#\\assessement2\\students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29ACB12C-48F3-4104-B832-2364D10701B2}|Assessement2.csproj|solutionrelative:students.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Departments.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\Departments.cs",
+              "RelativeDocumentMoniker": "Departments.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\Departments.cs",
+              "RelativeToolTip": "Departments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:37:18.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\LoginController.cs",
+              "RelativeDocumentMoniker": "LoginController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\LoginController.cs",
+              "RelativeToolTip": "LoginController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwDUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T07:17:12.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProfessorController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\ProfessorController.cs",
+              "RelativeDocumentMoniker": "ProfessorController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\ProfessorController.cs",
+              "RelativeToolTip": "ProfessorController.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAIwAYBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T06:57:00.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Professors.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\Professors.cs",
+              "RelativeDocumentMoniker": "Professors.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\Professors.cs",
+              "RelativeToolTip": "Professors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:36:57.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAQwFYAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:20:33.903Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrationController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\RegistrationController.cs",
+              "RelativeDocumentMoniker": "RegistrationController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\RegistrationController.cs",
+              "RelativeToolTip": "RegistrationController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAcwD8AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T05:00:58.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\StudentController.cs",
+              "RelativeDocumentMoniker": "StudentController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\StudentController.cs",
+              "RelativeToolTip": "StudentController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T11:40:46.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\AdminController.cs",
+              "RelativeDocumentMoniker": "AdminController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\AdminController.cs",
+              "RelativeToolTip": "AdminController.cs",
+              "ViewState": "AgIAABoBAAAAAAAAAAAowDMBAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T06:16:32.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "DepartmentController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\DepartmentController.cs",
+              "RelativeToolTip": "DepartmentController.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAkwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T06:21:35.376Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DBConnection.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\DBConnection.cs",
+              "RelativeDocumentMoniker": "DBConnection.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\DBConnection.cs",
+              "RelativeToolTip": "DBConnection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T04:21:33.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Courses.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\Courses.cs",
+              "RelativeDocumentMoniker": "Courses.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\Courses.cs",
+              "RelativeToolTip": "Courses.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwAYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:37:37.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\CourseController.cs",
+              "RelativeDocumentMoniker": "CourseController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\CourseController.cs",
+              "RelativeToolTip": "CourseController.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAkwIEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-09T06:22:05.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Students.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\Students.cs",
+              "RelativeDocumentMoniker": "Students.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\C#\\Assessement2\\Students.cs",
+              "RelativeToolTip": "Students.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA5wCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-08T06:36:32.332Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
