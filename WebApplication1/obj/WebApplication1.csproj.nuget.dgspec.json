@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP\\Desktop\\WebApplication1\\WebApplication1.csproj": {}
+    "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\WebApplication1\\WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP\\Desktop\\WebApplication1\\WebApplication1.csproj": {
+    "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\WebApplication1\\WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP\\Desktop\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\WebApplication1\\WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\HP\\Desktop\\WebApplication1\\WebApplication1.csproj",
+        "projectPath": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\WebApplication1\\WebApplication1.csproj",
         "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP\\Desktop\\WebApplication1\\obj\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -48,7 +48,7 @@
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
-              "version": "[8.0.10, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -70,9 +70,17 @@
               "target": "Package",
               "version": "[9.0.10, )"
             },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.14.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.4.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.14.0, )"
             }
           },
           "imports": [
