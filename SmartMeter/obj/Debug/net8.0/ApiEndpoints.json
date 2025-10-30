@@ -148,5 +148,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartMeter.Controllers.TodRuleController",
+    "Method": "UpadateTodRule",
+    "RelativePath": "update-todrule",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartMeter.Models.DTOs.TodRuleDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

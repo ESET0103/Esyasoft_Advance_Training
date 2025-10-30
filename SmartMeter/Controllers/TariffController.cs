@@ -48,31 +48,9 @@ namespace SmartMeter.Controllers
 
 
         [HttpPut("update-tariff")]
-        [Authorize]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> UpdateTariff([FromBody] TariffDto request)
         {
-            //Ensure user is authenticated
-            //var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value
-            //          ?? User.FindFirst("UserId")?.Value;
-
-            //if (string.IsNullOrEmpty(userId))
-            //    return Unauthorized("Invalid Token: UserId missing.");
-
-            //try
-            //{
-            //    // Update tariff via service
-            //    var updatedTariff = await _tariffService.UpdateTariffAsync(request);
-
-            //    return Ok(new
-            //    {
-            //        Message = $"Tariff ID {request.Tariffid} updated successfully.",
-            //        Tariff = updatedTariff
-            //    });
-            //}
-            //catch (Exception ex)
-            //{
-            //    return BadRequest(new { Message = ex.Message });
-            //}
 
             if (request == null)
                 return BadRequest("Invalid request body.");
