@@ -132,5 +132,21 @@
     "Order": 0,
     "Parameters": [],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SmartMeter.Controllers.TariffController",
+    "Method": "UpdateTariff",
+    "RelativePath": "update-tariff",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartMeter.Models.DTOs.TariffDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

@@ -6,7 +6,6 @@ using SmartMeter.Services.UserServices;
 using SmartMeter.Services;
 using System.Text;
 using SmartMeter.Data;
-using SmartMeter.Services.ConsumerServices;
 
 namespace SmartMeter
 {
@@ -23,13 +22,19 @@ namespace SmartMeter
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            // json to date converter
+            builder.Services.AddControllers().AddJsonOptions(options =>
+            {
+                options.JsonSerializerOptions.Converters.Add(new SmartMeter.Helpers.DateOnlyJsonConverter());
+            });
+
+
             builder.Services.AddDbContext<SmartMeterDbContext>(options =>
             options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             builder.Services.AddScoped<IAuthService, AuthService>();
             builder.Services.AddScoped<ITariffServices, TariffServices>();
             builder.Services.AddScoped<IUserServices, UserServices>();
-            builder.Services.AddScoped<IConsumerServices, ConsumerServices>();
 
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
             options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters

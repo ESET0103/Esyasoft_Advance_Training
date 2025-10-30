@@ -1,7 +1,9 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SmartMeter.Data;
+using SmartMeter.Models.DTOs;
 using SmartMeter.Services.TariffServices;
+using System.Security.Claims;
 
 namespace SmartMeter.Controllers
 {
@@ -42,6 +44,51 @@ namespace SmartMeter.Controllers
         {
             var rules = await _tariffService.GetTodRulesByTariffAsync(id);
             return Ok(rules);
+        }
+
+
+        [HttpPut("update-tariff")]
+        [Authorize]
+        public async Task<IActionResult> UpdateTariff([FromBody] TariffDto request)
+        {
+            //Ensure user is authenticated
+            //var userId = User.FindFirst(ClaimTypes.NameIdentifier)?.Value
+            //          ?? User.FindFirst("UserId")?.Value;
+
+            //if (string.IsNullOrEmpty(userId))
+            //    return Unauthorized("Invalid Token: UserId missing.");
+
+            //try
+            //{
+            //    // Update tariff via service
+            //    var updatedTariff = await _tariffService.UpdateTariffAsync(request);
+
+            //    return Ok(new
+            //    {
+            //        Message = $"Tariff ID {request.Tariffid} updated successfully.",
+            //        Tariff = updatedTariff
+            //    });
+            //}
+            //catch (Exception ex)
+            //{
+            //    return BadRequest(new { Message = ex.Message });
+            //}
+
+            if (request == null)
+                return BadRequest("Invalid request body.");
+
+            var result = await _tariffService.UpdateTariffAsync(request);
+
+            if (result == null)
+                return NotFound($"Tariff with ID {request.TariffId} not found.");
+
+            return Ok(new
+            {
+                message = "Tariff updated successfully.",
+                updatedTariff = result
+            });
+
+
         }
     }
 }

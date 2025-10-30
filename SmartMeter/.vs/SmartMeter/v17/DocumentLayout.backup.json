@@ -3,72 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\services\\consumerservices\\consumerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:services\\consumerservices\\consumerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\controllers\\consumercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:controllers\\consumercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\services\\tariffservices\\tariffservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:services\\tariffservices\\tariffservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\services\\tariffservices\\itariffservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:services\\tariffservices\\itariffservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\services\\consumerservices\\iconsumerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:services\\consumerservices\\iconsumerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\data\\smartmeterdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:data\\smartmeterdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\models\\dtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:models\\dtos\\tokenresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\controllers\\tariffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:controllers\\tariffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\models\\dtos\\tariffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:models\\dtos\\tariffdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\models\\tariff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:models\\tariff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\models\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:models\\consumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\helpers\\dateonlyjsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:helpers\\dateonlyjsonconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Models\\SmartMeterDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\SmartMeterDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|c:\\users\\hp\\desktop\\esyasoft_advance_training\\smartmeter\\smartmeter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7B15562D-B182-4D51-8381-04E39D661CD1}|SmartMeter.csproj|solutionrelative:smartmeter.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,225 +38,96 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SmartMeterDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Data\\SmartMeterDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\SmartMeterDbContext.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Data\\SmartMeterDbContext.cs",
-              "RelativeToolTip": "Data\\SmartMeterDbContext.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAswCgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T10:25:20.053Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
               "Title": "Tariff.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Models\\Tariff.cs",
               "RelativeDocumentMoniker": "Models\\Tariff.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Models\\Tariff.cs",
               "RelativeToolTip": "Models\\Tariff.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T09:28:01.875Z",
+              "WhenOpened": "2025-10-30T04:24:30.594Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SmartMeter.csproj",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\SmartMeter.csproj",
+              "RelativeDocumentMoniker": "SmartMeter.csproj",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\SmartMeter.csproj",
+              "RelativeToolTip": "SmartMeter.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-29T16:16:29.269Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ITariffServices.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Services\\TariffServices\\ITariffServices.cs",
-              "RelativeDocumentMoniker": "Services\\TariffServices\\ITariffServices.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Services\\TariffServices\\ITariffServices.cs",
-              "RelativeToolTip": "Services\\TariffServices\\ITariffServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Title": "DateOnlyJsonConverter.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Helpers\\DateOnlyJsonConverter.cs",
+              "RelativeDocumentMoniker": "Helpers\\DateOnlyJsonConverter.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Helpers\\DateOnlyJsonConverter.cs",
+              "RelativeToolTip": "Helpers\\DateOnlyJsonConverter.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwCgAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T09:35:38.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConsumerServices.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Services\\ConsumerServices\\ConsumerServices.cs",
-              "RelativeDocumentMoniker": "Services\\ConsumerServices\\ConsumerServices.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Services\\ConsumerServices\\ConsumerServices.cs",
-              "RelativeToolTip": "Services\\ConsumerServices\\ConsumerServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T09:33:08.842Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IConsumerServices.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Services\\ConsumerServices\\IConsumerServices.cs",
-              "RelativeDocumentMoniker": "Services\\ConsumerServices\\IConsumerServices.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Services\\ConsumerServices\\IConsumerServices.cs",
-              "RelativeToolTip": "Services\\ConsumerServices\\IConsumerServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T09:32:54.628Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TariffController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Controllers\\TariffController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TariffController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Controllers\\TariffController.cs",
-              "RelativeToolTip": "Controllers\\TariffController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T09:28:46.542Z",
+              "WhenOpened": "2025-10-29T16:16:08.4Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ConsumerController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Controllers\\ConsumerController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ConsumerController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Controllers\\ConsumerController.cs",
-              "RelativeToolTip": "Controllers\\ConsumerController.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAYwFAAAAANAAAAAAAAAA==",
+              "Title": "TariffController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Controllers\\TariffController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TariffController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Controllers\\TariffController.cs",
+              "RelativeToolTip": "Controllers\\TariffController.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAswF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T08:33:56.337Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwAcAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T07:41:30.738Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TariffServices.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Services\\TariffServices\\TariffServices.cs",
-              "RelativeDocumentMoniker": "Services\\TariffServices\\TariffServices.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Services\\TariffServices\\TariffServices.cs",
-              "RelativeToolTip": "Services\\TariffServices\\TariffServices.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T07:37:50.057Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "TokenResponseDto.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Models\\DTOs\\TokenResponseDto.cs",
-              "RelativeDocumentMoniker": "Models\\DTOs\\TokenResponseDto.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Models\\DTOs\\TokenResponseDto.cs",
-              "RelativeToolTip": "Models\\DTOs\\TokenResponseDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T07:37:34.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Services\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Services\\IAuthService.cs",
-              "RelativeToolTip": "Services\\IAuthService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T07:34:13.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Services\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwEMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T07:31:56.231Z",
+              "WhenOpened": "2025-10-29T14:13:18.421Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TariffDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Models\\DTOs\\TariffDto.cs",
+              "RelativeDocumentMoniker": "Models\\DTOs\\TariffDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Models\\DTOs\\TariffDto.cs*",
+              "RelativeToolTip": "Models\\DTOs\\TariffDto.cs*",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T13:43:00.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TariffServices.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Services\\TariffServices\\TariffServices.cs",
+              "RelativeDocumentMoniker": "Services\\TariffServices\\TariffServices.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Services\\TariffServices\\TariffServices.cs*",
+              "RelativeToolTip": "Services\\TariffServices\\TariffServices.cs*",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAwD4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-29T12:37:10.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAzwCUAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBgAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T07:28:27.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Consumer.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Models\\Consumer.cs",
-              "RelativeDocumentMoniker": "Models\\Consumer.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Models\\Consumer.cs",
-              "RelativeToolTip": "Models\\Consumer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T07:25:32.407Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SmartMeterDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Models\\SmartMeterDbContext.cs",
-              "RelativeDocumentMoniker": "Models\\SmartMeterDbContext.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\Models\\SmartMeterDbContext.cs",
-              "RelativeToolTip": "Models\\SmartMeterDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-29T07:25:14.076Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-29T07:10:25.021Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\Esyasoft_Advance_Training\\SmartMeter\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-29T07:10:21.146Z"
+              "WhenOpened": "2025-10-29T11:56:41.052Z"
             }
           ]
         }

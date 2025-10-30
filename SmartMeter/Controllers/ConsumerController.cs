@@ -1,93 +1,61 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SmartMeter.Data;
 using SmartMeter.Models;
-using SmartMeter.Services.ConsumerServices;
 using SmartMeter.Services.TariffServices;
 using System.Security.Claims;
 
 namespace SmartMeter.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("api/[Controller]")]
     public class ConsumerController: ControllerBase
     {
-        //private readonly SmartMeterDbContext _context;
-        private readonly ITariffServices _tariffServices;
-        private readonly ConsumerServices _consumerServices;
-        public ConsumerController(SmartMeterDbContext context,ConsumerServices consumerServices,ITariffServices tariffServices)
-        {
-            //_context = context;
-            _consumerServices = consumerServices;
-            _tariffServices = tariffServices;
 
+
+        private readonly SmartMeterDbContext _context;
+        private readonly ITariffServices _tariffServices;
+        public ConsumerController(SmartMeterDbContext context , ITariffServices tariffServices)
+        {
+            _context = context;
+            _tariffServices = tariffServices;
         }
 
         [HttpGet("get-consumer-tariff")]
-        //[Authorize]
+
         public async Task<ActionResult<Tariff>> GetConsumerTariff()
         {
+            if (!User.Identity?.IsAuthenticated ?? false)
+                return Unauthorized("User not authenticated.");
 
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value
+                            ?? User.FindFirst("UserId")?.Value;
 
+            if (string.IsNullOrEmpty(userIdClaim))
+                return Unauthorized("Invalid Token: UserId not found in JWT.");
 
-            //Console.WriteLine("We enter in the getconsumertariff ....");
-            //var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            //Console.WriteLine($"token useid {userIdClaim}");
-            //if (userIdClaim == null)
-            //{
-            //    return Unauthorized("Invalid Token");
-            //}
+            
+            if (!int.TryParse(userIdClaim, out int userId))
+                return BadRequest("Invalid UserId format in token.");
 
-            //if (!long.TryParse(userIdClaim, out long userId))
-            //{
-            //    return BadRequest("Invalid User Id");
-            //}
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Userid == userId);
+            if (user == null)
+                return NotFound("User not found.");
 
-            //User? user = await _context.Users.FirstOrDefaultAsync(u => u.Userid == userId);
-            //Console.WriteLine($"User = {user}");
-
-            //Consumer? consumer = await _context.Consumers.FirstOrDefaultAsync(c => c.Email == user.Email);
-
-            //Console.WriteLine($"consumer =  {consumer}");
-
-            //var tariff = await _consumerServices.GetConsumerTariffAsync();
-
-            ////Console.WriteLine($"consumer tariff =  {tariff}");
-
-            //if (tariff == null)
-            //{
-            //    return NotFound("Tariff not found");
-            //}
-
-            //return Ok();
-
-
-            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
-            if (userIdClaim == null)
-                return Unauthorized("Invalid Token");
-
-            if (!long.TryParse(userIdClaim, out long userId))
-                return BadRequest("Invalid User Id");
-
-            var consumer = await _consumerServices.GetConsumerByUserIdAsync(userId);
+            Console.WriteLine($"email = {user.Email}");
+            var consumer = await _context.Consumers.FirstOrDefaultAsync(c => c.Email == user.Email);
             if (consumer == null)
-                return NotFound("Consumer not found");
+                return NotFound($"Consumer not found for this user.{user.Email}");
 
+          
             var tariff = await _tariffServices.GetTariffByIdAsync(consumer.Tariffid);
             if (tariff == null)
-                return NotFound("Tariff not found");
+                return NotFound("Tariff not found for this consumer.");
 
-            return Ok(new
-            {
-                TariffName = tariff.Name,
-                BaseRate = tariff.Baserate,
-                TaxRate = tariff.Taxrate
-            });
-
+            return Ok(tariff.Name); 
         }
 
     }
-
-
-
 }

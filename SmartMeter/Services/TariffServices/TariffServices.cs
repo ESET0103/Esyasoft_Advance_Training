@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SmartMeter.Data;
 using SmartMeter.Models;
+using SmartMeter.Models.DTOs;
 namespace SmartMeter.Services.TariffServices
 {
     public class TariffServices : ITariffServices
@@ -38,6 +40,36 @@ namespace SmartMeter.Services.TariffServices
             return await _context.Todrules
                 .Where(r => r.Tariffid == tariffId && !r.Deleted)
                 .ToListAsync();
+        }
+
+        public async Task<Tariff> UpdateTariffAsync(TariffDto request)
+        {
+            var tariff = await _context.Tariffs.FirstOrDefaultAsync(t => t.Tariffid == request.TariffId);
+            if (tariff == null)
+                return null; // Let controller handle not-found case
+
+            // Update only provided fields
+            if (!string.IsNullOrEmpty(request.Effectivefrom))
+            {
+                DateOnly dateOnly = DateOnly.Parse(request.Effectivefrom);
+                tariff.Effectivefrom = dateOnly;
+
+            }
+
+            if (!string.IsNullOrEmpty(request.Effectiveto))
+            {
+                DateOnly dateOnly = DateOnly.Parse(request.Effectiveto);
+                tariff.Effectiveto = dateOnly;
+            }
+
+            if (request.Baserate.HasValue)
+                tariff.Baserate = request.Baserate.Value;
+
+            if (request.Taxrate.HasValue)
+                tariff.Taxrate = request.Taxrate.Value;
+
+            await _context.SaveChangesAsync();
+            return tariff;
         }
 
 
