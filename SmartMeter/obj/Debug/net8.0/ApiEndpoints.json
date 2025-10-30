@@ -150,6 +150,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "SmartMeter.Controllers.TariffSlabController",
+    "Method": "UpadateTariffSlab",
+    "RelativePath": "update-tariffslab",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "SmartMeter.Models.DTOs.TariffSlabDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SmartMeter.Controllers.TodRuleController",
     "Method": "UpadateTodRule",
     "RelativePath": "update-todrule",

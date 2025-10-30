@@ -7,6 +7,7 @@ using SmartMeter.Services;
 using System.Text;
 using SmartMeter.Data;
 using SmartMeter.Services.TodRuleServices;
+using SmartMeter.Services.TariffSlabServices;
 
 namespace SmartMeter
 {
@@ -37,6 +38,8 @@ namespace SmartMeter
             builder.Services.AddScoped<ITariffServices, TariffServices>();
             builder.Services.AddScoped<IUserServices, UserServices>();
             builder.Services.AddScoped<ITodRuleServices, TodRuleServices>();
+            builder.Services.AddScoped<ITariffSlabServices, TariffSlabServices>();
+           
 
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
             options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
