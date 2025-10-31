@@ -23,15 +23,17 @@ public partial class Consumer
 
     public string Status { get; set; } = null!;
 
-    public DateTime Createdat { get; set; }
+    public DateTime Createdat { get; set; } = DateTime.UtcNow;
 
     public string Createdby { get; set; } = null!;
 
-    public DateTime? Updatedat { get; set; }
+    public DateTime? Updatedat { get; set; } = DateTime.UtcNow;
 
     public string? Updatedby { get; set; }
 
     public bool Deleted { get; set; }
+
+    public byte[] Passwordhash { get; set; } = null!;
 
     public virtual Address? Address { get; set; }
 

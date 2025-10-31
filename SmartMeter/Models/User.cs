@@ -13,21 +13,15 @@ public partial class User
 
     public string Displayname { get; set; } = null!;
 
-    public string? Email { get; set; }
+    public string? Profilepic { get; set; }
+
+    public string Email { get; set; } = null!;
 
     public string? Phone { get; set; }
 
-    public DateTime? Lastloginutc { get; set; }
+    public string? Roles { get; set; }
+
+    public DateTime? Lastloginutc { get; set; } = DateTime.UtcNow;
 
     public bool Isactive { get; set; }
-
-    public string RefreshToken { get; set; } = null!;
-
-    public DateTime RefreshTokenExpiry { get; set; }
-
-    public string Roles { get; set; } = null!;
-
-    public string? Profilepic { get; set; }
-
-    public virtual ICollection<Consumer> Consumers { get; set; } = new List<Consumer>();
 }

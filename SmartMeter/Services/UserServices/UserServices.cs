@@ -1,6 +1,11 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using SmartMeter.Data;
+using SmartMeter.Models;
 using SmartMeter.Models.DTOs;
+using System.Security.Claims;
+using System.Text;
 
 namespace SmartMeter.Services.UserServices
 {
@@ -8,43 +13,13 @@ namespace SmartMeter.Services.UserServices
     {
 
         public readonly SmartMeterDbContext _context;
+        private readonly PasswordHasher<Consumer> _passwordHasher;
         public UserServices(SmartMeterDbContext context)
         {
             _context = context;
+            _passwordHasher = new PasswordHasher<Consumer>();
         }
-        //public async Task<IEnumerable<HistoricalConsumptionDto>> GetHistoricalConsumptionAsync(
-        //    int orgUnitId, DateTime startDate, DateTime endDate)
-        //{
-        //    var sql = @"
-        //        WITH RECURSIVE OrgHierarchy AS (
-        //            SELECT OrgUnitId, Name, ParentId, Type
-        //            FROM ""OrgUnit""
-        //            WHERE OrgUnitId = {0}
-        //            UNION ALL
-        //            SELECT o.""OrgUnitId"", o.""Name"", o.""ParentId"", o.""Type""
-        //            FROM ""OrgUnit"" o
-        //            INNER JOIN OrgHierarchy oh ON o.""ParentId"" = oh.""OrgUnitId""
-        //        )
-        //        SELECT 
-        //            oh.""OrgUnitId"",
-        //            oh.""Name"" AS ""OrgUnitName"",
-        //            COALESCE(SUM(b.""TotalUnitsConsumed""), 0) AS ""TotalUnits"",
-        //            COALESCE(SUM(b.""TotalAmount""), 0) AS ""TotalAmount""
-        //        FROM OrgHierarchy oh
-        //        LEFT JOIN ""Consumer"" c ON c.""OrgUnitId"" = oh.""OrgUnitId""
-        //        LEFT JOIN ""Billing"" b
-        //            ON b.""ConsumerId"" = c.""ConsumerId""
-        //            AND b.""BillingPeriodStart"" >= {1}
-        //            AND b.""BillingPeriodEnd"" <= {2}
-        //        GROUP BY oh.""OrgUnitId"", oh.""Name""
-        //        ORDER BY oh.""OrgUnitId"";
-        //    "
-        //    ;
-
-        //    return await _context.Set<HistoricalConsumptionDto>()
-        //        .FromSqlRaw(sql, orgUnitId, startDate, endDate)
-        //        .ToListAsync();
-        //}
+        
         public async Task<HistoricalConsumptionDto> GetHistoricalConsumptionAsync(int orgUnitId, DateTime startDate, DateTime endDate)
         {
             // Ensure dates are UTC to prevent PostgreSQL timestamp issues
@@ -78,6 +53,46 @@ namespace SmartMeter.Services.UserServices
                 EndDate = endDate,
                 TotalEnergyConsumed = totalEnergyConsumed
             };
+        }
+
+        public async Task<Consumer?> RegisterConsumerAsync(ConsumerDto request)
+        {
+            bool exists = await _context.Users.AnyAsync(u => u.Username == request.Username || u.Email == request.Email);
+            if (exists)
+                return null;
+
+
+            var user = new User
+            {
+                Username = request.Username,
+                Email = request.Email,
+                Roles = "Consumer",
+                Displayname = request.Name
+               
+            };
+            var consumer = new Consumer
+            {
+                Username = request.Username,
+                Name = request.Username,
+                Email = request.Email,
+                Phone = request.Phone,
+                Orgunitid = request.Orgunitid,
+                Tariffid = request.Tariffid,
+                Createdat = DateTime.UtcNow,
+                //Createdby = 
+            };
+
+            // Hash password and convert to byte[]
+            var hashedPassword = _passwordHasher.HashPassword(consumer, request.Password);
+            consumer.Passwordhash = Encoding.UTF8.GetBytes(hashedPassword);
+            user.Passwordhash = consumer.Passwordhash;
+
+            await _context.Consumers.AddAsync(consumer);
+            await _context.Users.AddAsync(user); ;
+            await _context.SaveChangesAsync();
+
+            return consumer;
+
         }
     }
 }

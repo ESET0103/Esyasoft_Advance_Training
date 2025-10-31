@@ -1,12 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SmartMeter.Data;
+using SmartMeter.Models.DTOs;
+using SmartMeter.Models;
 using SmartMeter.Services;
 using SmartMeter.Services.UserServices;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SmartMeter.Controllers
 {
     [ApiController]
     [Route("api/user/[Controller]")]
+    [Authorize(Roles = "User")]
     public class UserController : ControllerBase
     {
         public readonly SmartMeterDbContext SmartMeterDbContext;
@@ -19,28 +24,7 @@ namespace SmartMeter.Controllers
 
         
         [HttpGet("consumption-history")]
-        //public async Task<IActionResult> GetHistoricalConsumption(
-        //    [FromQuery] int orgUnitId,
-        //    [FromQuery] DateTime startDate,
-        //    [FromQuery] DateTime endDate)
-        //{
-        //    if (orgUnitId <= 0)
-        //        return BadRequest("Invalid OrgUnitId.");
-
-        //    if (startDate > endDate)
-        //        return BadRequest("StartDate cannot be after EndDate.");
-
-        //    var result = await _userServices.GetHistoricalConsumptionAsync(orgUnitId, startDate, endDate);
-        //    //var result = await _userServices.
-
-        //    return Ok(new
-        //    {
-        //        OrgUnitId = orgUnitId,
-        //        StartDate = startDate,
-        //        EndDate = endDate,
-        //        Records = result
-        //    });
-        //}
+       
         public async Task<IActionResult> GetTotalEnergyConsumed([FromQuery] int orgUnitId, [FromQuery] DateTime startDate, [FromQuery] DateTime endDate)
         {
 
@@ -61,8 +45,23 @@ namespace SmartMeter.Controllers
             return Ok(historicalData);
         }
 
+        [HttpPost("register-consumer")]
 
+        public async Task<ActionResult> RegisterConsumer(ConsumerDto request)
+        {
+            if (!User.Identity?.IsAuthenticated ?? false)
+                return Unauthorized("User not authenticated.");
 
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier)?.Value
+                            ?? User.FindFirst("UserId")?.Value;
+
+            var consumer = await _userServices.RegisterConsumerAsync(request);
+            if (consumer is null) return BadRequest("Consumer already exist");
+            consumer.Createdby = userIdClaim;
+            consumer.Updatedby = userIdClaim;
+            return Ok(consumer);
+
+        }
 
 
     }
