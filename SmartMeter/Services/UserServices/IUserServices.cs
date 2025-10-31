@@ -1,21 +1,9 @@
-﻿using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
-using SmartMeter.Models;
-using SmartMeter.Models.DTOs;
-using SmartMeter.Services;
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
-using System.Security.Cryptography;
-using System.Text;
+﻿using SmartMeter.Models.DTOs;
 
-namespace SmartMeter.Services
+namespace SmartMeter.Services.UserServices
 {
     public interface IUserServices
     {
-        public interface IUserService
-        {
-            Task<User> RegisterConsumerAsync(User request);
-        }
+        Task<HistoricalConsumptionDto> GetHistoricalConsumptionAsync(int orgUnitId, DateTime startDate, DateTime endDate);
     }
 }

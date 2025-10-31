@@ -39,7 +39,9 @@ namespace SmartMeter
             builder.Services.AddScoped<IUserServices, UserServices>();
             builder.Services.AddScoped<ITodRuleServices, TodRuleServices>();
             builder.Services.AddScoped<ITariffSlabServices, TariffSlabServices>();
-           
+            //builder.Services.AddScoped<IConsumptionService, ConsumptionService>();
+
+
 
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
             options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters

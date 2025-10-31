@@ -92,6 +92,32 @@
     ]
   },
   {
+    "ContainingType": "SmartMeter.Controllers.UserController",
+    "Method": "GetTotalEnergyConsumed",
+    "RelativePath": "api/user/User/consumption-history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orgUnitId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "startDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "endDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "SmartMeter.Controllers.TariffController",
     "Method": "GetTariffById",
     "RelativePath": "tariff/{id}",
