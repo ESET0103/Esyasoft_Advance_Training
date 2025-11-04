@@ -37,6 +37,7 @@ namespace SmartMeter.Services
                 Email = request.Email,
                 Username = request.Username,
                 Displayname = request.Username, // Set display name
+                Roles = request.Roles,
                 Isactive = true,
                 Profilepic = null
             };

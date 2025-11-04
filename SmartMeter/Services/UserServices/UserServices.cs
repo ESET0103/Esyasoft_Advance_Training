@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using SmartMeter.Data;
 using SmartMeter.Models;
 using SmartMeter.Models.DTOs;
+using System.Reflection.Metadata.Ecma335;
 using System.Security.Claims;
 using System.Text;
 
@@ -13,11 +14,13 @@ namespace SmartMeter.Services.UserServices
     {
 
         public readonly SmartMeterDbContext _context;
-        private readonly PasswordHasher<Consumer> _passwordHasher;
+        private readonly PasswordHasher<Consumer> _passwordHasherConsumer;
+        private readonly PasswordHasher<User> _passwordHasherUser;
         public UserServices(SmartMeterDbContext context)
         {
             _context = context;
-            _passwordHasher = new PasswordHasher<Consumer>();
+            _passwordHasherConsumer = new PasswordHasher<Consumer>();
+            _passwordHasherUser = new PasswordHasher<User>();
         }
         
         public async Task<HistoricalConsumptionDto> GetHistoricalConsumptionAsync(int orgUnitId, DateTime startDate, DateTime endDate)
@@ -83,7 +86,7 @@ namespace SmartMeter.Services.UserServices
             };
 
             // Hash password and convert to byte[]
-            var hashedPassword = _passwordHasher.HashPassword(consumer, request.Password);
+            var hashedPassword = _passwordHasherConsumer.HashPassword(consumer, request.Password);
             consumer.Passwordhash = Encoding.UTF8.GetBytes(hashedPassword);
             user.Passwordhash = consumer.Passwordhash;
 
@@ -93,6 +96,44 @@ namespace SmartMeter.Services.UserServices
 
             return consumer;
 
+        }
+
+
+        public async Task<bool> ChangePasswordAsync(long userId, ChangePasswordDto request)
+        {
+            // Validate new password confirmation
+            if (request.NewPassword != request.ConfirmPassword)
+            {
+                return false;
+            }
+
+            // Find user
+            User user = await _context.Users.FindAsync(userId);
+            if (user is null)
+            {
+                return false;
+            }
+
+            // Verify current password
+            var storedHashedPassword = Encoding.UTF8.GetString(user.Passwordhash);
+            var currentPasswordVerification = _passwordHasherUser.VerifyHashedPassword(user, storedHashedPassword, request.CurrentPassword);
+
+            if (currentPasswordVerification == PasswordVerificationResult.Failed)
+            {
+                return false;
+            }
+
+            // Hash new password
+            var newHashedPassword = _passwordHasherUser.HashPassword(user, request.NewPassword);
+            user.Passwordhash = Encoding.UTF8.GetBytes(newHashedPassword);
+
+            // Invalidate all refresh tokens (optional security measure)
+            //user.RefreshToken = null;
+            //user.RefreshTokenExpiry = null;
+
+            // Save changes
+            await _context.SaveChangesAsync();
+            return true;
         }
     }
 }

@@ -10,8 +10,8 @@ using Microsoft.AspNetCore.Authorization;
 namespace SmartMeter.Controllers
 {
     [ApiController]
-    [Route("api/user/[Controller]")]
-    [Authorize(Roles = "User")]
+    [Route("api/[Controller]")]
+    [Authorize(Roles = "Client")]
     public class UserController : ControllerBase
     {
         public readonly SmartMeterDbContext SmartMeterDbContext;
@@ -61,6 +61,42 @@ namespace SmartMeter.Controllers
             consumer.Updatedby = userIdClaim;
             return Ok(consumer);
 
+        }
+
+
+        [HttpPost("change-password")]
+        public async Task<ActionResult> ChangePassword(ChangePasswordDto request)
+        {
+            // Get user ID from JWT token
+            Console.WriteLine(request.CurrentPassword);
+            var userIdClaim = User.FindFirst(ClaimTypes.NameIdentifier);
+            if (userIdClaim == null || !long.TryParse(userIdClaim.Value, out long userId))
+            {
+                return Unauthorized("Invalid token");
+            }
+
+            // Validate request
+            if (string.IsNullOrEmpty(request.CurrentPassword) ||
+                string.IsNullOrEmpty(request.NewPassword) ||
+                string.IsNullOrEmpty(request.ConfirmPassword))
+            {
+                return BadRequest("All fields are required");
+            }
+
+            if (request.NewPassword != request.ConfirmPassword)
+            {
+                return BadRequest("New password and confirmation do not match");
+            }
+
+            // Attempt to change password
+            var result = await _userServices.ChangePasswordAsync(userId, request);
+
+            if (!result)
+            {
+                return BadRequest("Failed to change password. Please check your current password.");
+            }
+
+            return Ok("Password changed successfully");
         }
 
 

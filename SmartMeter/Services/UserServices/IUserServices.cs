@@ -7,5 +7,6 @@ namespace SmartMeter.Services.UserServices
     {
         Task<HistoricalConsumptionDto> GetHistoricalConsumptionAsync(int orgUnitId, DateTime startDate, DateTime endDate);
         Task<Consumer?> RegisterConsumerAsync(ConsumerDto request);
+        Task<bool> ChangePasswordAsync(long userId, ChangePasswordDto request);
     }
 }
