@@ -8,6 +8,10 @@ using System.Text;
 using SmartMeter.Data;
 using SmartMeter.Services.TodRuleServices;
 using SmartMeter.Services.TariffSlabServices;
+using SmartMeter.Services.RabbitMqService.Utils;
+using static SmartMeter.Services.RabbitMqService.RabbitMqProcessService;
+using SmartMeter.Services.RabbitMqService;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace SmartMeter
 {
@@ -31,6 +35,22 @@ namespace SmartMeter
             });
 
 
+            //b
+            //  uilder.Services.AddSingleton(new DatabaseService("Host=localhost;Port=5433;Username=postgres;Password=Admin;Database=SmartMeterDatabase"));
+
+            builder.Services.AddHostedService<RabbitMqConsumerService>();
+            //builder.Services.AddHostedService<DatabaseService>();
+            
+
+            // In Program.cs (for .NET 6+ minimal APIs) or Startup.ConfigureServices (for older versions)
+            //builder.Services.AddScoped<IDatabaseService, DatabaseService>(provider =>
+            //{
+            //    var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+            //    return new DatabaseService(connectionString);
+            //});
+
+
+
             builder.Services.AddDbContext<SmartMeterDbContext>(options =>
             options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
@@ -39,9 +59,8 @@ namespace SmartMeter
             builder.Services.AddScoped<IUserServices, UserServices>();
             builder.Services.AddScoped<ITodRuleServices, TodRuleServices>();
             builder.Services.AddScoped<ITariffSlabServices, TariffSlabServices>();
+            //builder.Services.AddScoped<IDatabaseService, DatabaseService>();
             //builder.Services.AddScoped<IConsumptionService, ConsumptionService>();
-
-
 
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
             options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters

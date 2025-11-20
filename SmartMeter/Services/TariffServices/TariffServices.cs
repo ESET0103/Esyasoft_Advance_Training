@@ -22,7 +22,7 @@ namespace SmartMeter.Services.TariffServices
             Console.WriteLine("Enters the function to get the list...");
 
             var listofTariff = await _context.Tariffs
-                .Include(t => t.Todrules.Where(r => !r.Deleted))
+                //.Where(r => !r.Deleted))
                 .ToListAsync();
 
             Console.WriteLine(listofTariff);
