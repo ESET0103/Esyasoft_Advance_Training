@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\practice\\rabbitmqPractice\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5AD3E6-2D73-46C3-8CD8-F4AE1B2940AF}|rabbitmqPractice.csproj|c:\\users\\hp\\desktop\\practice\\rabbitmqpractice\\services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5AD3E6-2D73-46C3-8CD8-F4AE1B2940AF}|rabbitmqPractice.csproj|solutionrelative:services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5AD3E6-2D73-46C3-8CD8-F4AE1B2940AF}|rabbitmqPractice.csproj|c:\\users\\hp\\desktop\\practice\\rabbitmqpractice\\services\\datagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5AD3E6-2D73-46C3-8CD8-F4AE1B2940AF}|rabbitmqPractice.csproj|solutionrelative:services\\datagenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5AD3E6-2D73-46C3-8CD8-F4AE1B2940AF}|rabbitmqPractice.csproj|c:\\users\\hp\\desktop\\practice\\rabbitmqpractice\\dtos\\meterreadingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5AD3E6-2D73-46C3-8CD8-F4AE1B2940AF}|rabbitmqPractice.csproj|solutionrelative:dtos\\meterreadingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5AD3E6-2D73-46C3-8CD8-F4AE1B2940AF}|rabbitmqPractice.csproj|c:\\users\\hp\\desktop\\practice\\rabbitmqpractice\\services\\irabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5AD3E6-2D73-46C3-8CD8-F4AE1B2940AF}|rabbitmqPractice.csproj|solutionrelative:services\\irabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5AD3E6-2D73-46C3-8CD8-F4AE1B2940AF}|rabbitmqPractice.csproj|c:\\users\\hp\\desktop\\practice\\rabbitmqpractice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5AD3E6-2D73-46C3-8CD8-F4AE1B2940AF}|rabbitmqPractice.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C5AD3E6-2D73-46C3-8CD8-F4AE1B2940AF}|rabbitmqPractice.csproj|c:\\users\\hp\\desktop\\practice\\rabbitmqpractice\\controllers\\metercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C5AD3E6-2D73-46C3-8CD8-F4AE1B2940AF}|rabbitmqPractice.csproj|solutionrelative:controllers\\metercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\practice\\rabbitmqPractice\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\practice\\rabbitmqPractice\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T05:05:57.934Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\practice\\rabbitmqPractice\\Services\\DataGenerator.cs",
+              "RelativeDocumentMoniker": "Services\\DataGenerator.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\practice\\rabbitmqPractice\\Services\\DataGenerator.cs",
+              "RelativeToolTip": "Services\\DataGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T08:50:01.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MeterReadingDto.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\practice\\rabbitmqPractice\\DTOs\\MeterReadingDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\MeterReadingDto.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\practice\\rabbitmqPractice\\DTOs\\MeterReadingDto.cs",
+              "RelativeToolTip": "DTOs\\MeterReadingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T06:30:33.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RabbitMQService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\practice\\rabbitmqPractice\\Services\\RabbitMQService.cs",
+              "RelativeDocumentMoniker": "Services\\RabbitMQService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\practice\\rabbitmqPractice\\Services\\RabbitMQService.cs",
+              "RelativeToolTip": "Services\\RabbitMQService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T06:25:33.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRabbitMQService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\practice\\rabbitmqPractice\\Services\\IRabbitMQService.cs",
+              "RelativeDocumentMoniker": "Services\\IRabbitMQService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\practice\\rabbitmqPractice\\Services\\IRabbitMQService.cs",
+              "RelativeToolTip": "Services\\IRabbitMQService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T06:25:14.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MeterController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\practice\\rabbitmqPractice\\Controllers\\MeterController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MeterController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\practice\\rabbitmqPractice\\Controllers\\MeterController.cs",
+              "RelativeToolTip": "Controllers\\MeterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T05:24:58.222Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

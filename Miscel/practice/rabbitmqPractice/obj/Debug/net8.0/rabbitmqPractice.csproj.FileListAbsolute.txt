@@ -1,0 +1,8 @@
+C:\Users\HP\Desktop\practice\rabbitmqPractice\obj\Debug\net8.0\rabbitmqPractice.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\practice\rabbitmqPractice\obj\Debug\net8.0\rabbitmqPractice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\practice\rabbitmqPractice\obj\Debug\net8.0\rabbitmqPractice.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\practice\rabbitmqPractice\obj\Debug\net8.0\rabbitmqPractice.AssemblyInfo.cs
+C:\Users\HP\Desktop\practice\rabbitmqPractice\obj\Debug\net8.0\rabbitmqPractice.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\practice\rabbitmqPractice\obj\Debug\net8.0\rabbitmqPractice.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\HP\Desktop\practice\rabbitmqPractice\obj\Debug\net8.0\rabbitmqPractice.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\HP\Desktop\practice\rabbitmqPractice\obj\Debug\net8.0\rabbitmqPractice.sourcelink.json

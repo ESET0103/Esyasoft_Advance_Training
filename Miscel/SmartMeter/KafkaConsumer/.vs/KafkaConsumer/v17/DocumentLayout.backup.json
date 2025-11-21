@@ -1,0 +1,129 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\Advance_Training_C#\\KafkaConsumer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E916A5-957F-4368-A905-3603FA50165E}|KafkaConsumer.csproj|c:\\users\\user\\desktop\\advance_training_c#\\kafkaconsumer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E916A5-957F-4368-A905-3603FA50165E}|KafkaConsumer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E916A5-957F-4368-A905-3603FA50165E}|KafkaConsumer.csproj|c:\\users\\user\\desktop\\advance_training_c#\\kafkaconsumer\\transactionalauditconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E916A5-957F-4368-A905-3603FA50165E}|KafkaConsumer.csproj|solutionrelative:transactionalauditconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E916A5-957F-4368-A905-3603FA50165E}|KafkaConsumer.csproj|c:\\users\\user\\desktop\\advance_training_c#\\kafkaconsumer\\transactionalconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E916A5-957F-4368-A905-3603FA50165E}|KafkaConsumer.csproj|solutionrelative:transactionalconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E916A5-957F-4368-A905-3603FA50165E}|KafkaConsumer.csproj|c:\\users\\user\\desktop\\advance_training_c#\\kafkaconsumer\\idempotentconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E916A5-957F-4368-A905-3603FA50165E}|KafkaConsumer.csproj|solutionrelative:idempotentconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E916A5-957F-4368-A905-3603FA50165E}|KafkaConsumer.csproj|c:\\users\\user\\desktop\\advance_training_c#\\kafkaconsumer\\deliverysemanticsconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E916A5-957F-4368-A905-3603FA50165E}|KafkaConsumer.csproj|solutionrelative:deliverysemanticsconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E916A5-957F-4368-A905-3603FA50165E}|KafkaConsumer.csproj|c:\\users\\user\\desktop\\advance_training_c#\\kafkaconsumer\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E916A5-957F-4368-A905-3603FA50165E}|KafkaConsumer.csproj|solutionrelative:order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TransactionalAuditConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Advance_Training_C#\\KafkaConsumer\\TransactionalAuditConsumer.cs",
+              "RelativeDocumentMoniker": "TransactionalAuditConsumer.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Advance_Training_C#\\KafkaConsumer\\TransactionalAuditConsumer.cs",
+              "RelativeToolTip": "TransactionalAuditConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:56:31.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionalConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Advance_Training_C#\\KafkaConsumer\\TransactionalConsumer.cs",
+              "RelativeDocumentMoniker": "TransactionalConsumer.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Advance_Training_C#\\KafkaConsumer\\TransactionalConsumer.cs",
+              "RelativeToolTip": "TransactionalConsumer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:55:48.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IdempotentConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Advance_Training_C#\\KafkaConsumer\\IdempotentConsumer.cs",
+              "RelativeDocumentMoniker": "IdempotentConsumer.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Advance_Training_C#\\KafkaConsumer\\IdempotentConsumer.cs",
+              "RelativeToolTip": "IdempotentConsumer.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAnwCAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:38:04.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeliverySemanticsConsumer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Advance_Training_C#\\KafkaConsumer\\DeliverySemanticsConsumer.cs",
+              "RelativeDocumentMoniker": "DeliverySemanticsConsumer.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Advance_Training_C#\\KafkaConsumer\\DeliverySemanticsConsumer.cs",
+              "RelativeToolTip": "DeliverySemanticsConsumer.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAnwCAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T09:28:25.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Advance_Training_C#\\KafkaConsumer\\Order.cs",
+              "RelativeDocumentMoniker": "Order.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Advance_Training_C#\\KafkaConsumer\\Order.cs",
+              "RelativeToolTip": "Order.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:43:55.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\Advance_Training_C#\\KafkaConsumer\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\Advance_Training_C#\\KafkaConsumer\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAIwFsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T06:19:28.161Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

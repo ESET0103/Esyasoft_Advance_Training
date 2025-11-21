@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\DOTNET\Datastructure_demo\bin\Debug\net8.0\Datastructure_demo.exe
+C:\Users\HP\Desktop\DOTNET\Datastructure_demo\bin\Debug\net8.0\Datastructure_demo.deps.json
+C:\Users\HP\Desktop\DOTNET\Datastructure_demo\bin\Debug\net8.0\Datastructure_demo.runtimeconfig.json
+C:\Users\HP\Desktop\DOTNET\Datastructure_demo\bin\Debug\net8.0\Datastructure_demo.dll
+C:\Users\HP\Desktop\DOTNET\Datastructure_demo\bin\Debug\net8.0\Datastructure_demo.pdb
+C:\Users\HP\Desktop\DOTNET\Datastructure_demo\obj\Debug\net8.0\Datastructure_demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\DOTNET\Datastructure_demo\obj\Debug\net8.0\Datastructure_demo.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\DOTNET\Datastructure_demo\obj\Debug\net8.0\Datastructure_demo.AssemblyInfo.cs
+C:\Users\HP\Desktop\DOTNET\Datastructure_demo\obj\Debug\net8.0\Datastructure_demo.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\DOTNET\Datastructure_demo\obj\Debug\net8.0\Datastructure_demo.dll
+C:\Users\HP\Desktop\DOTNET\Datastructure_demo\obj\Debug\net8.0\refint\Datastructure_demo.dll
+C:\Users\HP\Desktop\DOTNET\Datastructure_demo\obj\Debug\net8.0\Datastructure_demo.pdb
+C:\Users\HP\Desktop\DOTNET\Datastructure_demo\obj\Debug\net8.0\Datastructure_demo.genruntimeconfig.cache
+C:\Users\HP\Desktop\DOTNET\Datastructure_demo\obj\Debug\net8.0\ref\Datastructure_demo.dll

@@ -1,0 +1,14 @@
+C:\Users\HP\Desktop\C#\IOC&DI\bin\Debug\net8.0\IOC&DI.exe
+C:\Users\HP\Desktop\C#\IOC&DI\bin\Debug\net8.0\IOC&DI.deps.json
+C:\Users\HP\Desktop\C#\IOC&DI\bin\Debug\net8.0\IOC&DI.runtimeconfig.json
+C:\Users\HP\Desktop\C#\IOC&DI\bin\Debug\net8.0\IOC&DI.dll
+C:\Users\HP\Desktop\C#\IOC&DI\bin\Debug\net8.0\IOC&DI.pdb
+C:\Users\HP\Desktop\C#\IOC&DI\obj\Debug\net8.0\IOC&DI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\C#\IOC&DI\obj\Debug\net8.0\IOC&DI.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\C#\IOC&DI\obj\Debug\net8.0\IOC&DI.AssemblyInfo.cs
+C:\Users\HP\Desktop\C#\IOC&DI\obj\Debug\net8.0\IOC&DI.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\C#\IOC&DI\obj\Debug\net8.0\IOC&DI.dll
+C:\Users\HP\Desktop\C#\IOC&DI\obj\Debug\net8.0\refint\IOC&DI.dll
+C:\Users\HP\Desktop\C#\IOC&DI\obj\Debug\net8.0\IOC&DI.pdb
+C:\Users\HP\Desktop\C#\IOC&DI\obj\Debug\net8.0\IOC&DI.genruntimeconfig.cache
+C:\Users\HP\Desktop\C#\IOC&DI\obj\Debug\net8.0\ref\IOC&DI.dll
